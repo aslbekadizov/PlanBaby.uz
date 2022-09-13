@@ -1,0 +1,23 @@
+@font-face {
+    font-family: Ping;
+    src: url(./Ping\ LCG\ Bold.otf);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: Ping;
+    src: url(./Ping\ LCG\ Regular.otf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: Ping;
+    src: url(./Ping\ LCG\ Medium.otf);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: Ping;
+    src: url(./Ping\ LCG\ Thin.otf);
+    font-weight: 100;
+}
