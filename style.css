@@ -54,7 +54,6 @@ body {
 
 /* HEADER_START */
 /* HEADER_NAVBAR */
-
 .header_navbar {
     width: 100%;
     background-color: #fff;
@@ -83,6 +82,14 @@ body {
     font-size: 18px;
     line-height: 24px;
     color: var(--color-8);
+}
+
+.header_menu ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 !important;
+    margin: 0 !important;
 }
 
 .header_number img {
@@ -345,7 +352,7 @@ body {
 }
 
 .title h3 {
-    width: 903px;
+    max-width: 903px;
     margin: 0 auto;
     font-weight: 500;
     font-size: 29px;
@@ -450,9 +457,9 @@ body {
 
 .form_lock p {
     margin-bottom: 0 !important;
-    font-weight: 700 !important;
-    font-size: 20px !important;
-    line-height: 24px !important;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
     color: #006CCC !important;
 }
 
@@ -695,7 +702,8 @@ body {
 
 .sertificate_pages img {
     max-width: 220px;
-    max-height: 305px;
+    width: 100%;
+    
 }
 
 /* SECTION_OUR_SECTIFICAT_FINISH */
@@ -913,3 +921,70 @@ p .sperolin {
 
 /* FOOTER_FINISH */
 
+@media (max-width: 720px){
+    .footer_top_info img,
+    .footer_top_info h2{
+        margin-bottom: 50px;
+    }
+
+    .main_info__left p{
+        font-size: 27px;
+        line-height: 45px;
+        margin-right: 31px;
+        margin-bottom: 20px;
+    }
+
+    .main_info{
+        padding: 29px 0 29px 0;
+    }
+
+    .main_imgs img{
+        width: 103px;
+    }
+
+    .form_info form,
+    .main_form_info form{
+        padding: 17px 31px;
+    }
+
+    .form_info form input, .main_form_info form input{
+        margin-bottom: 19px;
+    }
+
+    .form_info form h5, .main_form_info form h5{
+        font-size: 24px;
+        line-height: 25px;
+        margin-bottom: 20px;
+    }
+
+    .form_info form p, .main_form_info form p{
+        font-size: 17px;
+        margin-bottom: 20px;
+    }
+
+    .form_info button, .main_form_info button,
+    .form_info form input, .main_form_info form input{
+        padding: 9px;
+    }
+
+    .form_info button a, .main_form_info button a{
+        font-size: 17px;
+    }
+
+    .form_lock p{
+        font-size: 11px;
+    }
+
+    .footer_top_info {
+        padding-top: 60px;
+    }
+
+    .our_sertificat {
+        padding: 0px 0 35px 0;
+    }
+
+    .our_sertificat h3{
+        margin: 35px 0 20px 0;
+        font-size: 29px;
+    }
+}
