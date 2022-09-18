@@ -697,7 +697,9 @@ body {
 
 .sertificate_pages {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
+    justify-content: center;
 }
 
 .sertificate_pages img {
@@ -792,6 +794,7 @@ p .sperolin {
     margin:  0 auto;
     max-width: 535px;
     margin-bottom: 39px;
+    padding-left: 0px !important;
 }
 
 .footer_bottom_info ul a{
@@ -990,5 +993,19 @@ p .sperolin {
 
     .footer_top_info h2{
         font-size: 38px;
+    }
+}
+
+@media (max-width: 400px) {
+    .footer_bottom_info ul a{
+        font-size: 13px;
+    }
+
+    .sertificate_pages img{
+        max-width: 180px;
+    }
+
+    .main_imgs img {
+        width: 179px;
     }
 }
