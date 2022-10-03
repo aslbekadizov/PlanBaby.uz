@@ -294,7 +294,7 @@ body {
     font-size: 48px;
     line-height: 58px;
     color: var(--color-8);
-    width: 804px;
+    max-width: 804px;
     margin-bottom: 80px;
 }
 
@@ -397,7 +397,7 @@ body {
 .form_info form,
 .main_form_info form {
     max-width: 666px;
-    padding: 20px 65px;
+    padding: 20px 17px;
     background: #ffffff;
     border-radius: 24px;
     margin-bottom: 75px;
@@ -623,6 +623,11 @@ body {
     background: linear-gradient(106.37deg, rgba(224, 107, 185, 0.2) 0.37%, rgba(102, 145, 224, 0.2) 101.05%);
 }
 
+.product_left{
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .product_left p {
     font-weight: 700;
     font-size: 48px;
@@ -658,7 +663,7 @@ body {
 }
 
 .product_left button {
-    padding: 13px 68px;
+    padding: 9px 12px;
     background: linear-gradient(269deg, #890D5B -7.63%, rgba(255, 255, 255, 0) 104.12%), linear-gradient(0deg, #FF16CC, #FF16CC), linear-gradient(269deg, #890D5B -7.63%, rgba(255, 255, 255, 0) 104.12%), #D9D9D9;
     border: 1px solid rgba(255, 255, 255, 0.5);
     border-radius: 10px;
@@ -667,7 +672,7 @@ body {
 
 .product_left a {
     font-weight: 700;
-    font-size: 22px;
+    font-size: 13px;
     color: var(--color-4);
 }
 
@@ -676,6 +681,7 @@ body {
 }
 
 .product_img {
+    position: absolute;
     width: 620px;
     top: 50%;
     left: 50%;
@@ -721,7 +727,7 @@ body {
 
 .main_info__left p {
     font-weight: 700;
-    font-size: 48px;
+    font-size: 36px;
     line-height: 70px;
     color: var(--color-8);
     margin-bottom: 90px;
@@ -736,7 +742,7 @@ p .sperolin {
 }
 
 .main_imgs img {
-    width: 298px;
+    width: 286px;
 }
 
 .carousel-control-prev,
@@ -927,11 +933,15 @@ p .sperolin {
 @media (max-width: 800px){
     .footer_top_info img,
     .footer_top_info h2{
-        margin-bottom: 50px;
+        margin-bottom: 10px;
+    }
+
+    .footer_bottom_info a{
+        margin-bottom: 0;
     }
 
     .main_info__left p{
-        font-size: 24px;
+        font-size: 22px;
         line-height: 45px;
         margin-right: 31px;
         margin-bottom: 20px;
@@ -992,7 +1002,11 @@ p .sperolin {
     }
 
     .footer_top_info h2{
-        font-size: 38px;
+        font-size: 30px;
+    }
+
+    .product_img{
+        position: relative;
     }
 }
 
@@ -1002,10 +1016,46 @@ p .sperolin {
     }
 
     .sertificate_pages img{
-        max-width: 180px;
+        max-width: 165px;
     }
 
     .main_imgs img {
-        width: 179px;
+        width: 166px;
+        padding-bottom: 30px;
+    }
+
+    .footer_bottom_basic{
+        display: block;
+        text-align: center;
+    }
+
+    .footer_bottom_basic p {
+        display: block;
+    }
+
+    .product__page1 p{
+        font-size: 13px;
+        line-height: none;
+    }
+
+    .product__page1 span{
+        font-size: 16px;
+    }
+
+    .product_left span{
+        font-size: 20px;
+    }
+
+    .product_left p{
+        font-size: 18px;
+        
+    }
+
+    .product_img{
+        position: relative;
+    }
+
+    .product__page1 {
+        margin-bottom: 7px;
     }
 }
