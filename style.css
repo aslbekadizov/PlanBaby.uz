@@ -158,7 +158,7 @@ body {
     margin-bottom: 0;
 }
 
-.title_button button {
+.title_button button{
     padding: 23px 70px 24px 66px;
     background: var(--color-3);
     border: none;
@@ -202,7 +202,7 @@ body {
     left: 188px;
 }
 
-.frame {
+.frame{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -623,11 +623,6 @@ body {
     background: linear-gradient(106.37deg, rgba(224, 107, 185, 0.2) 0.37%, rgba(102, 145, 224, 0.2) 101.05%);
 }
 
-.product_left{
-    display: flex;
-    flex-wrap: wrap;
-}
-
 .product_left p {
     font-weight: 700;
     font-size: 48px;
@@ -663,7 +658,7 @@ body {
 }
 
 .product_left button {
-    padding: 9px 12px;
+    padding: 17px 41px;
     background: linear-gradient(269deg, #890D5B -7.63%, rgba(255, 255, 255, 0) 104.12%), linear-gradient(0deg, #FF16CC, #FF16CC), linear-gradient(269deg, #890D5B -7.63%, rgba(255, 255, 255, 0) 104.12%), #D9D9D9;
     border: 1px solid rgba(255, 255, 255, 0.5);
     border-radius: 10px;
@@ -672,7 +667,7 @@ body {
 
 .product_left a {
     font-weight: 700;
-    font-size: 13px;
+    font-size: 20px;
     color: var(--color-4);
 }
 
@@ -1033,6 +1028,10 @@ p .sperolin {
         display: block;
     }
 
+    .product_left a{
+        font-size: 13px;
+    }
+    
     .product__page1 p{
         font-size: 13px;
         line-height: none;
@@ -1057,5 +1056,42 @@ p .sperolin {
 
     .product__page1 {
         margin-bottom: 7px;
+    }
+
+    .product_left button{
+        padding: 9px 31px;
+    }
+    .cards{
+        flex-wrap: wrap;
+    }
+
+    .card{
+        margin-bottom: 10px;
+    }
+
+    .binders_info .card{
+        max-width: 163px;
+    }
+    .binders_info .card span{
+        font-weight: 500;
+        font-size: 17px;
+    }
+    .binders_info .card p{
+        font-size: 17px;
+        line-height: 24px;
+        margin-top: 5px;
+    }
+    .binders_info .card img {
+        width: 46px;
+        margin: 0 auto 11px;
+    }
+    .binders_info h3 {
+        font-weight: 500;
+        font-size: 22px;
+        padding-bottom: 0px;
+    }
+    .binders{
+        padding-bottom: 0;
+        padding-top: 100px;
     }
 }
