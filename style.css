@@ -501,7 +501,8 @@ body {
 
 .info_elements p {
     font-weight: 400;
-    font-size: 26px;
+    font-size: 35px;
+    font-style: italic;
     line-height: 45px;
     display: flex;
     align-items: center;
@@ -512,7 +513,7 @@ body {
 }
 
 .info_elements img {
-    width: 659px;
+    max-width: 659px;
     height: 494px;
 }
 
@@ -538,7 +539,7 @@ body {
 }
 
 .us_page {
-    width: 391px;
+    max-width: 391px;
     background: #ffffff;
     border-radius: 30px;
     margin-right: 40px;
@@ -1093,5 +1094,122 @@ p .sperolin {
     .binders{
         padding-bottom: 0;
         padding-top: 100px;
+    }
+    .product_other{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .about_us__page{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        padding: 0;
+    }
+    .about_us{
+        padding: 0 0 45px;
+    }
+    .us_page{
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+    .us_page span{
+        font-size: 33px;
+    }
+    .us_page p{
+        font-size: 18px;
+        line-height: 19px;
+    }
+    .about_us__page h3{
+        font-size: 37px;
+        margin-right: 0;
+        margin: 2rem auto 3rem;
+    }
+    .info_elements{
+        margin-bottom: 0;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .info_elements img{
+        height: 271px;
+        max-width: 390px;
+        padding-bottom: 20px;
+    }
+    .info_elements p{
+        font-size: 17px;
+        line-height: 32px;
+        margin-left: 0;
+        text-align: center;
+        display: block;
+        padding-bottom: 20px;
+    }
+    .about_us__info h2{
+        font-size: 34px;
+        margin-bottom: 20px;
+    }
+    .form_info{
+        width: 100%;
+        padding: 20px 0 25px 0;
+    }
+    .form_info form p, .main_form_info form p{
+        font-size: 14px;
+    }
+    .section_form{
+        background: linear-gradient(113.79deg, rgba(102, 145, 224, 0.2) -0.58%, rgba(232, 77, 195, 0.2) 100.52%);
+    }
+    .form_info form, .main_form_info form{
+        margin-bottom: 45px;
+    }
+    .addition p{
+        font-size: 17px;
+        line-height: 21px;
+        text-align: center;
+    }
+    .form_info h4{
+        font-size: 24px;
+        line-height: 36px;
+        padding-bottom: 25px;
+    }
+    .binders{
+        margin-bottom: 0;
+    }
+    .section_slider{
+        background: none;
+    }
+    .title p{
+        display: none;
+    }
+    .section_slider h2{
+        margin-bottom: 35px;
+    }
+    .title h3{
+        font-size: 19px;
+        line-height: 30px;
+        padding-bottom: 0;
+    }
+    .product_img{
+        display: none;
+    }
+    .family_shadow_info button{
+        padding: 8px 30px;
+    }
+    .family_shadow{
+        padding: 39px 0 28px;
+        margin-top: 0;
+    }
+    .family_shadow_info img{
+        padding-bottom: 0;
+        max-width: 155px;
+    }
+    .family_shadow_info h3{
+        font-size: 27px;
+        line-height: 49px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+}
+@media (max-width: 360px) {
+    .info_elements img{
+        max-width: 335px;
     }
 }
