@@ -1224,24 +1224,24 @@ p .sperolin {
         flex-wrap: wrap;
         padding: 31px 35px;
     }
-    .card{
+    .section_cards .card{
         width: 134px;
         padding: 3px;
         margin-bottom: 35px;
     }
-    .card_img img {
+    .section_cards .card_img img {
         width: 120px;
         height: 100px;
     }
-    .card_icons{
+    .section_cards .card_icons{
         justify-content: center;
     }
-    .card h4{
+    .section_cards .card h4{
         font-size: 19px;
         line-height: 5px;
         text-align: center;
     }
-    .card p{
+    .section_cards .card p{
         font-size: 11px;
         text-align: center;
     }
