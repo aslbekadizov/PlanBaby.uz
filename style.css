@@ -629,7 +629,7 @@ body {
     font-size: 48px;
     line-height: 58px;
     color: var(--color-15);
-    width: 690px;
+    max-width: 690px;
 }
 
 .product_left span {
@@ -804,7 +804,10 @@ p .sperolin {
     font-size: 16px;
     color: #483434;
 }
-
+.dfw{
+    display: flex;
+    flex-wrap: wrap;
+}
 .footer_bottom_basic{
     padding-top: 23px;
     border-top: 1px solid #483434;
@@ -1008,7 +1011,7 @@ p .sperolin {
 
 @media (max-width: 400px) {
     .footer_bottom_info ul a{
-        font-size: 13px;
+        font-size: 12px;
     }
 
     .sertificate_pages img{
@@ -1043,12 +1046,17 @@ p .sperolin {
     }
 
     .product_left span{
-        font-size: 20px;
+        font-size: 16px;
+        line-height: 0;
     }
 
     .product_left p{
-        font-size: 18px;
-        
+        font-size: 17px;
+        line-height: 34px;
+    }
+    .product__page1 img{
+        width: 35px;
+        margin-right: 5px;
     }
 
     .product_img{
@@ -1057,6 +1065,8 @@ p .sperolin {
 
     .product__page1 {
         margin-bottom: 7px;
+        display: flex;
+        align-items: center;
     }
 
     .product_left button{
@@ -1203,13 +1213,63 @@ p .sperolin {
     }
     .family_shadow_info h3{
         font-size: 27px;
-        line-height: 49px;
+        line-height: 38px;
         margin-bottom: 10px;
         text-align: center;
+    }
+    .section_slider{
+        padding: 15px 0 0 0;
+    }
+    .section_cards{
+        flex-wrap: wrap;
+        padding: 31px 35px;
+    }
+    .card{
+        width: 134px;
+        padding: 3px;
+        margin-bottom: 35px;
+    }
+    .card_img img {
+        width: 120px;
+        height: 100px;
+    }
+    .card_icons{
+        justify-content: center;
+    }
+    .card h4{
+        font-size: 19px;
+        line-height: 5px;
+        text-align: center;
+    }
+    .card p{
+        font-size: 11px;
+        text-align: center;
+    }
+    .title_button button{
+        padding: 12px 27px;
+    }
+    .header_title_right{
+        height: 663px;
+    }
+    .header_title_right img{
+        top: -282px;
+        left: 102px;
+    }
+    .title_p{
+        font-size: 35px;
+        line-height: 50px;
+        margin-bottom: 17px;
+    }
+    .pages{
+        margin-bottom: 25px;
     }
 }
 @media (max-width: 360px) {
     .info_elements img{
         max-width: 335px;
+    }
+    .product_left p {
+        font-size: 14px;
+        line-height: 32px;
     }
 }
