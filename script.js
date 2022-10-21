@@ -14,7 +14,7 @@ window.addEventListener('load', function(e){
             infoElements_p.innerHTML += word_p.charAt(i)
             i++
         }
-        setInterval(print, 20)
+        setInterval(print, 10)
     })
 //so'z chiqishi tugadi
 

@@ -509,7 +509,7 @@ body {
     margin-left: 72px;
     margin-bottom: 0 !important;
     color: #0D1873;
-
+    text-align: center;
 }
 
 .info_elements img {
@@ -1096,6 +1096,7 @@ p .sperolin {
     .binders_info h3 {
         font-weight: 500;
         font-size: 22px;
+        line-height: 50px;
         padding-bottom: 0px;
     }
     .binders{
