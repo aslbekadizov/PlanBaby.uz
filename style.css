@@ -1,6 +1,6 @@
 @import url(./assets/fonts/fonts.css);
 
-* {
+*{
     margin: 0;
     padding: 0;
     list-style-type: none !important;
@@ -52,6 +52,10 @@ body {
     font-family: Ping !important;
 }
 
+ul,
+ol{
+    padding-left: 0 !important;
+}
 /* HEADER_START */
 /* HEADER_NAVBAR */
 .header_navbar {
@@ -118,7 +122,7 @@ body {
 
 /* HEADER_TITLE */
 .header_title {
-    padding: 126px 0 0;
+    padding: 26px 0 0;
     margin-bottom: 88px;
 }
 
@@ -923,8 +927,48 @@ p .sperolin {
 .icons_wrapper a:hover{
     color: #fff !important;
 }
-
+.card_img img {
+    width: 96px;
+    height: 82px;
+}
+.card p{
+    font-size: 11px;
+    line-height: 14px;
+}
 /* FOOTER_FINISH */
+/* HEADER_MENU */
+    .left_elements{
+        margin-right: auto;
+    }
+    .fa-xmark{
+        width: 23px;
+        height: 28px;
+    }
+    .fa-bars{
+        display: none;
+        margin-right: auto;
+        width: 25px;
+        height: 30px;
+    }
+    
+    .menu_left{
+        background: #fff;
+        z-index: 2000;
+        padding: 20px;
+    }
+    .left_elements a{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 24px;
+        color: var(--color-8);
+    }
+    .burger_menu{
+        box-shadow: 0px 1px 15px #797777;
+        opacity: 0;
+        transition: 1000ms;
+    }
+/* HEADER_MENU_FINISH */
 
 @media (max-width: 800px){
     .footer_top_info img,
@@ -1003,6 +1047,51 @@ p .sperolin {
 
     .product_img{
         position: relative;
+    }
+}
+
+@media (max-width: 771px){
+    .left_elements p{
+        margin-bottom: 0 !important;
+    }
+    .card h4{
+        font-size: 21px;
+    }
+    .left_elements img{
+        margin-right: 15px;
+    }
+    .header_menu{
+        display: none;
+    }
+    .header_number img,
+    .header_number p{
+        display: none;
+    }
+    .header_logo img{
+        width: 160px;
+    }
+    .title_p{
+        font-size: 55px;
+        line-height: 64px;
+        margin-bottom: 25px;
+    }
+    .header_number img {
+        margin-right: 10px;
+    }
+    .pages{
+        margin-bottom: 40px;
+    }
+    .title_button button{
+        padding: 17px 45px 17px 45px;
+    }
+    .section_cards{
+        padding: 44px 40px;
+    }
+    .header_number p{
+        font-size: 15px;
+    }
+    .fa-bars{
+        display: block;
     }
 }
 

@@ -18,17 +18,20 @@ window.addEventListener('load', function(e){
     })
 //so'z chiqishi tugadi
 
-    
+//Menu
+let menu = document.querySelector('.fa-bars')
+let close = document.querySelector('.fa-xmark')
+let burger_menu = document.querySelector('.burger_menu')
+let header_navbar = document.querySelector('.header_navbar')
 
-
-
-
-
-
-
-
-
-
+menu.addEventListener('click', function () {
+    header_navbar.style.display = 'none'
+    burger_menu.style.opacity = '1'
+})
+close.addEventListener('click', function(){
+    header_navbar.style.display = 'block'
+    burger_menu.style.opacity = '0'
+})
 
 
 
