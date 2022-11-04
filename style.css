@@ -122,7 +122,7 @@ ol{
 
 /* HEADER_TITLE */
 .header_title {
-    padding: 26px 0 0;
+    padding: 126px 0 0;
     margin-bottom: 88px;
 }
 
@@ -927,14 +927,7 @@ p .sperolin {
 .icons_wrapper a:hover{
     color: #fff !important;
 }
-.card_img img {
-    width: 96px;
-    height: 82px;
-}
-.card p{
-    font-size: 11px;
-    line-height: 14px;
-}
+
 /* FOOTER_FINISH */
 /* HEADER_MENU */
     .left_elements{
@@ -979,6 +972,9 @@ p .sperolin {
     .footer_top_info img,
     .footer_top_info h2{
         margin-bottom: 10px;
+    }
+    .header_title{
+        padding: 116px 0 0;
     }
 
     .footer_bottom_info a{
@@ -1058,6 +1054,14 @@ p .sperolin {
 @media (max-width: 771px){
     .left_elements p{
         margin-bottom: 0 !important;
+    }
+    .card_img img {
+        width: 96px;
+        height: 82px;
+    }
+    .card p{
+        font-size: 11px;
+        line-height: 14px;
     }
     .card h4{
         font-size: 21px;
