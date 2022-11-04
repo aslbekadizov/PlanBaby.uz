@@ -26,14 +26,11 @@ let header_navbar = document.querySelector('.header_navbar')
 let header_title = document.querySelector('.header_title')
 
 menu.addEventListener('click', function () {
-    header_navbar.style.display = 'none'
-    burger_menu.style.opacity = '1'
-    header_title.style.padding = '250px 0 0 0'
+    burger_menu.style.left = '0px'
 })
 close.addEventListener('click', function(){
-    header_navbar.style.display = 'block'
-    burger_menu.style.opacity = '0'
-    header_title.style.padding = '126px 0 0 0'
+    burger_menu.style.left = '-278px'
+    
 })
 
 
