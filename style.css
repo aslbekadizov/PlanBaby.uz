@@ -945,16 +945,23 @@ p .sperolin {
     }
     
     .menu_left{
-        background: #fff;
+        background: #ffffff;
         z-index: 2000;
         padding: 20px;
+        height: 380px;
     }
     .left_elements a{
         font-style: normal;
         font-weight: 700;
-        font-size: 18px;
-        line-height: 24px;
+        font-size: 19px;
+        line-height: 37px;
         color: var(--color-8);
+    }
+    .left_elements .header_logo_menu img{
+        margin-bottom: 30px;
+    }
+    .left_elements ul{
+        margin-bottom: 30px;
     }
     header{
         position: relative;
@@ -962,7 +969,7 @@ p .sperolin {
     }
     .burger_menu{
         position: fixed;
-        left: -278px;
+        left: -290px;
         top: 0;
         transition: 800ms;
         z-index: 2000;

@@ -29,8 +29,7 @@ menu.addEventListener('click', function () {
     burger_menu.style.left = '0px'
 })
 close.addEventListener('click', function(){
-    burger_menu.style.left = '-278px'
-    
+    burger_menu.style.left = '-290px'
 })
 
 
