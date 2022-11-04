@@ -22,17 +22,19 @@ window.addEventListener('load', function(e){
 let menu = document.querySelector('.fa-bars')
 let close = document.querySelector('.fa-xmark')
 let burger_menu = document.querySelector('.burger_menu')
-let header_navbar = document.querySelector('.header_navbar')
-let header_title = document.querySelector('.header_title')
+let menu_ul = document.querySelector('.left_elements')
+
 
 menu.addEventListener('click', function () {
     burger_menu.style.left = '0px'
 })
 close.addEventListener('click', function(){
     burger_menu.style.left = '-290px'
+    
 })
-
-
+menu_ul.addEventListener('click', function(){
+    burger_menu.style.left = '-290px'
+})
 
 
 
