@@ -39,8 +39,6 @@ menu_ul.addEventListener('click', function(){
 
 
 
-
-
     // var header_title_right = document.querySelector(".header_title_right img") 
     // var frame = document.querySelector(".frame")
 
