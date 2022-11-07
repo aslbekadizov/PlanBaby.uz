@@ -976,7 +976,23 @@ p .sperolin {
         box-shadow: 0px 1px 15px #797777;
     }
 /* HEADER_MENU_FINISH */
-
+@media (max-width: 1450px) {
+    .info_elements img{
+        max-width: 482px;
+    }
+    .info_elements p{
+        font-size: 32px;
+    }
+    .main_info__left p{
+        font-size: 30px;
+    }
+    .main_info__left {
+        max-width: 534px;
+    }
+    .main_imgs img {
+        width: 259px;
+    }
+}
 @media (max-width: 800px){
     .footer_top_info img,
     .footer_top_info h2{
@@ -1107,8 +1123,8 @@ p .sperolin {
     .binders{
         padding-top: 71px;
     }
-    .us_page span{
-        font-size: 44px;
+    .us_page span {
+        font-size: 39px;
     }
     .us_page p{
         font-size: 27px;
@@ -1116,8 +1132,8 @@ p .sperolin {
     .cards{
         flex-wrap: wrap;
     }
-    .binders_info .card{
-        max-width: 238px;
+    .binders_info .card {
+        max-width: 223px;
     }
     .binders_info .card img{
         margin-bottom: 14px;
@@ -1441,24 +1457,7 @@ p .sperolin {
         margin-bottom: 25px;
     }
 }
-@media (max-width: 1450px) {
-    .info_elements img{
-        max-width: 600px;
-    }
-    .info_elements p{
-        font-size: 32px;
-    }
-    .main_info__left p{
-        font-size: 30px;
-    }
-    .main_info__left {
-        max-width: 534px;
-    }
-    .main_imgs img {
-        width: 259px;
-    }
-    
-}
+
 @media (max-width: 360px) {
     .info_elements img{
         max-width: 335px;
